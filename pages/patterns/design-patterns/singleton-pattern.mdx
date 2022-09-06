@@ -53,7 +53,7 @@ class Counter {
     if (instance) {
       throw new Error("You can only create one instance!");
     }
-    this.counter = counter;
+    this.counter = 0;
     instance = this;
   }
 
